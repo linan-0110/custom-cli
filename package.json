@@ -1,0 +1,15 @@
+{
+  "name": "linan-cli",
+  "version": "1.0.0",
+  "description": "玩玩脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "李楠",
+  "license": "ISC",
+  "bin": {
+    "linan": "index.js"
+  }
+}
