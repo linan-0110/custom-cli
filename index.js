@@ -24,6 +24,11 @@ const templates = {
     url:'https://github.com/liNan0/tpl_c',
     downloadURL: "https://github.com:liNan0/tpl_c#master", 
     description: '李楠的cli练手--c'
+  },
+  'VueProject': {
+    url:'https://github.com/linan-0110/VueProject',
+    downloadURL: "https://github.com/linan-0110/VueProject.git", 
+    description: '李楠的第一个vue项目模板'
   }
 }
 
@@ -53,7 +58,7 @@ program
   .option("-s, --setup_mode [mode]", "Which setup mode to use")
   .action(() => {
     for(let key in templates) {
-      console.log(`${key}——${templates[key].description}`)
+      console.log(`${key}  >>>  ${templates[key].description}`)
     }
   });
 //p6
